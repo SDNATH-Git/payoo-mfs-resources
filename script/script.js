@@ -4,14 +4,13 @@ document.getElementById('login-btn')
     const inputNumber=document.getElementById('input-number').value;
     const pin=document.getElementById('pin').value
     const pinNumber=parseInt(pin)
-    console.log(inputNumber);
-    
-    
+
     if(inputNumber.length === 11 && pinNumber === 1234){
         window.location.href="./main.html";
     }
     else{
-        console.log('need value');
+        alert('need value');
+        
     }
  
 
